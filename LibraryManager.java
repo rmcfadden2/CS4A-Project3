@@ -10,6 +10,7 @@ public class LibraryManager {
         for (int row = 0; row < libraryInventory.length; row++) {
         for (int col = 0; col < libraryInventory[row].length; col++) {
             String number = String.valueOf(1000000000L + (long)(Math.random() * 9000000000L));
+            // LINE 14 HAS AN ERROR: "Item is abstract, cannot be instantiated"
             libraryInventory[row][col] = new Item("Empty", "Item", number, row, col); // create object
             }
         }
