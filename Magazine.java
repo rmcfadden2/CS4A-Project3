@@ -1,9 +1,9 @@
 public class Magazine extends Item
 {
-    Magazine(String magazineTitle, String publisher, )
-    {
+    // Magazine(String magazineTitle, String publisher, )
+    // {
         
-    }
+    // }
 
     // Variables
     private String magazineTitle;
