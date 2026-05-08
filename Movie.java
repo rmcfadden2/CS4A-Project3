@@ -76,6 +76,6 @@ public class Movie extends Item
             actors += mainActors.get(i) + "\n";
         }
 
-        return super.toString() + "\nMovie Title: " + title + "\nDirector: " + director + "\nRelease Date: " + releaseDate.toString() + "\nMain Actors: " + actors;
+        return super.toString() + "\nMovie Title: " + title + "\nDirector: " + director + "\nRelease Date: " + releaseDate.toString() + "\nMain Actors:\n" + actors;
     }
 }
