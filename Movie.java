@@ -73,7 +73,7 @@ public class Movie extends Item
 
         for(int i = 0; i < mainActors.size(); ++i)
         {
-            actors += mainActors.get(i) + "\n";
+            actors +=  i + 1 + ". " + mainActors.get(i) + "\n";
         }
 
         return super.toString() + "\nMovie Title: " + title + "\nDirector: " + director + "\nRelease Date: " + releaseDate.toString() + "\nMain Actors:\n" + actors;
